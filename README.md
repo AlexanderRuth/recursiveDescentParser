@@ -4,4 +4,4 @@ My progress on designing a recursive descent parser for mathematical equations
   
   \<term\> :== \<factor\> * \<term\>
   
-  \<factor\> :== (\<expr\>) | [0 - 9]
+  \<factor\> :== (\<expr\>) | [0-9]{[0-9]}
